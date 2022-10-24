@@ -1,8 +1,9 @@
 #include "Common.h"
-#include "Impl.h"
+#include "PBF.h"
 
 int main()
 {
-    Impl o;
+    zeno::PBF o;
+    o.initCube();
     o.apply();
 }
